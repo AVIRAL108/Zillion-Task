@@ -1,0 +1,21 @@
+{
+  "name": "zillion-task",
+  "version": "1.0.0",
+  "description": "Zillion.io hiring Challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aviral Garg",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.6.6",
+    "body-parser": "^1.18.2",
+    "bootstrap": "^3.3.7",
+    "express": "^4.16.2",
+    "google-search-scraper": "0.0.3",
+    "images-scraper": "^2.0.11",
+    "jquery": "^3.2.1",
+    "mongodb": "^2.2.33"
+  }
+}

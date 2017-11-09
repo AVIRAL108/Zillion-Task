@@ -1,0 +1,8 @@
+<div class="container text-center" id="wrapper" ng-controller="searchController as searchCtrl" ng-submit="searchCtrl.saveQuery(query)">
+<form class="form-inline">
+  <div class="form-group">
+    <input type="text" class="form-control" placeholder=" Enter Your Query" size="40" ng-model="query.option">
+  </div>
+  <button type="submit" class="btn btn-warning">Search</button>
+</form>
+{{query}}
